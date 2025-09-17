@@ -102,5 +102,73 @@ Go back to CMD window
 
 Press Ctrl + C → then type y and press Enter.
 
-Congratulations
+**Congratulations**
 You have successfully set up Python, installed Jupyter Notebook, and run your first Machine Learning program.
+
+
+
+**Other Option:-**
+Running First Machine Learning Program on Google Colab
+
+Google Colab is a **free online platform by Google** that provides:  
+- A Jupyter Notebook environment in your browser  
+- Pre-installed ML libraries (numpy, pandas, matplotlib, scikit-learn, etc.)  
+- Free CPU and GPU support for faster execution  
+
+## Step 1: Open Google Colab
+
+1. Go to [https://colab.research.google.com](https://colab.research.google.com)  
+2. Sign in with your **Google Account**  
+
+## Step 2: Upload the Notebook
+
+You have two options:  
+
+## Option A: Open from GitHub
+1. In Colab, click **File → Open Notebook → GitHub tab**  
+2. Enter your repository link, e.g.:  
+https://github.com/rushikeshhadawale/ML-Lab.git
+
+yaml
+Copy code
+3. Select the file `first_ml_program.ipynb` → Click **Open**  
+
+##Option B: Upload from Local Machine
+1. In Colab, click **File → Upload Notebook**  
+2. Upload your `.ipynb` file (downloaded from this repo).  
+
+##Step 3: Check Dependencies
+
+Most required libraries (numpy, pandas, matplotlib, scikit-learn) are already installed.  
+
+If you need extra packages, run in a cell:
+```python
+!pip install package_name
+Example:
+
+python
+Copy code
+!pip install seaborn
+
+Step 4: Run the Notebook
+Click Runtime → Run all to execute the entire notebook
+
+Or run cells one by one with Shift + Enter
+
+Outputs (numbers, tables, graphs) will appear below each cell.
+
+Step 5: Save Your Work
+To save changes to Google Drive → File → Save a copy in Drive
+
+To download your notebook → File → Download → Download .ipynb
+
+Advantages of Colab
+No installation required (Python & Jupyter already set up)
+
+Free access to GPU/TPU (helpful for deep learning)
+
+Easy sharing & collaboration (just like Google Docs)
+
+Congratulations
+You have successfully run your first ML program on Google Colab! 
+
