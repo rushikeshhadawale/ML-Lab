@@ -5,7 +5,7 @@ Machine Learning Lab
 This repository contains my **Machine Learning program** implemented in Python.  
 The program is written inside a **Jupyter Notebook**, which allows you to run code step by step and see the results interactively.  
 
-## 📌 Step 1: Install Python
+## Step 1: Install Python
 
 1. Go to the official Python website: [https://www.python.org/downloads/](https://www.python.org/downloads/)  
 2. Download the latest stable version (Python 3.x).  
